@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Testing the laptop with tailwind css</title>
+</head>
+<body class="font-Poppins bg-[#171c23]">
+
+    <!-- Header and nav bar -->
+    <header class=" mt-4 pb-4  shadow-xl">
+       <div class="container max-w-85% flex justify-between items-center">
+        <div>
+            <h1 class="font-bold text-lg text-lightbg"><a href="#">Testing</a></h1>
+        </div>
+        <nav>
+            <ul class="hidden lg:flex flex-1 uppercase text-bold items-center lg:justify-center text-blue-300 font-semibold text-xs gap-12">
+                <li><a class="hover:underline" href="#">Home</a></li>
+                <li><a class="hover:underline" href="#">Products</a></li>
+                <li><a class="hover:underline" href="#">Skills</a></li>
+                <li><a class="hover:underline" href="#">Jobs</a></li>
+                <li><a class="hover:underline" href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="hidden lg:flex gap-4 text-sm items-center ">
+            <a class="bg-blue-300 px-6 py-1 text-darkbg font-bold rounded-md hover:bg-blue-600 hover:text-blue-300 transition duration-300" href="">Login</a>
+            <a class="bg-blue-300 px-6 py-1 text-darkbg font-bold rounded-md hover:bg-blue-600 hover:text-blue-300 transition duration-300" href="">Sign Up</a>
+            <div class="bg-blue-100 w-8 h-8 mx-4 rounded-full cursor-pointer hover:bg-blue-600 transition duration-300"></div>
+        </div>
+
+        <!-- hamburger icon -->
+        <div class="lg:hidden">
+            <i class="fa fa-bars text-white" aria-hidden="true"></i>
+        </div>
+       </div>
+    </header>
+
+
+    <!-- main section flex -->
+    <main class="container max-w-85% flex flex-col-reverse lg:flex-row items-center justify-center mt-16">
+
+        <!-- Content -->
+        <div class="w-/1/2 lg:w-85% flex flex-col justify-center items-center md:justify-start md:items-start"> 
+            <h2 class="text-white text-5xl text-center md:text-6xl lg:text-left lg:text-5xl xl:text-7xl 2xl:text-8xl font-semibold mb-6">Get a ride to Space</h1>
+            <p class="text-white text-center md:text-xl lg:text-left lg:text-xl xl:text-md">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias, fugiat explicabo eum voluptatibus in? Optio quas earum ad doloribus?
+            </p>
+            <button class="bg-red-800 rounded-md max-w-md text-white font-semibold tracking-wide border-b-4 mt-4 hover:bg-red-400 hover:text-darkbg hover:font-bold transition duration-400  border-red-400 py-3 px-8 my-4">Get Started</button>
+        </div>
+
+
+        <!-- image -->
+        <div class="w-[300px] md:w-[400px] lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] object-contain">
+            <img src="./img/hero1.png" alt="">
+        </div>
+    </main>
+
+    <!-- card section -->
+    <section class="h-screen bg-red-900 ">
+
+        <!-- card container-->
+        <div class="container max-w-85% grid grid-cols-3">
+
+            <!-- card 1 -->
+            <div>
+                
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+    </section>
+
+
+
+    <script src="https://use.fontawesome.com/2b0d1487b5.js"></script>
+</body>
+</html>
