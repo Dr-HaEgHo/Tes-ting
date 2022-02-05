@@ -6,7 +6,10 @@ module.exports = {
     extend: {
 
       spacing:{
-        '85%':'85%'
+        '85%':'85%',
+        '75%':'75%',
+        '30%':'30%',
+        '25%':'25%',
       },
 
       backgroundImage:{

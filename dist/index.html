@@ -10,8 +10,8 @@
 <body class="font-Poppins bg-[#171c23]">
 
     <!-- Header and nav bar -->
-    <header class=" mt-4 pb-4  shadow-xl">
-       <div class="container max-w-85% flex justify-between items-center">
+    <header class="shadow-xl">
+       <div class="container max-w-85% flex justify-between items-center py-4">
         <div>
             <h1 class="font-bold text-lg text-lightbg"><a href="#">Testing</a></h1>
         </div>
@@ -39,37 +39,70 @@
 
 
     <!-- main section flex -->
-    <main class="container max-w-85% flex flex-col-reverse lg:flex-row items-center justify-center mt-16">
+    <main class="">
 
-        <!-- Content -->
-        <div class="w-/1/2 lg:w-85% flex flex-col justify-center items-center md:justify-start md:items-start"> 
-            <h2 class="text-white text-5xl text-center md:text-6xl lg:text-left lg:text-5xl xl:text-7xl 2xl:text-8xl font-semibold mb-6">Get a ride to Space</h1>
-            <p class="text-white text-center md:text-xl lg:text-left lg:text-xl xl:text-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias, fugiat explicabo eum voluptatibus in? Optio quas earum ad doloribus?
-            </p>
-            <button class="bg-red-800 rounded-md max-w-md text-white font-semibold tracking-wide border-b-4 mt-4 hover:bg-red-400 hover:text-darkbg hover:font-bold transition duration-400  border-red-400 py-3 px-8 my-4">Get Started</button>
-        </div>
-
-
-        <!-- image -->
-        <div class="w-[300px] md:w-[400px] lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] object-contain">
-            <img src="./img/hero1.png" alt="">
+        <div class="container max-w-85% flex flex-col-reverse lg:flex-row items-center justify-center mt-4">
+                <!-- Content -->
+                <div class="w-/1/2 lg:w-85% flex flex-col justify-center items-center md:justify-start md:items-start">
+                    <h2
+                        class="text-white text-5xl text-center md:text-6xl lg:text-left lg:text-5xl xl:text-7xl 2xl:text-8xl font-semibold mb-6">
+                        Get a ride to Space</h1>    
+                        <p class="text-white text-center md:text-xl lg:text-left lg:text-xl xl:text-md">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias, fugiat explicabo eum voluptatibus
+                            in? Optio quas earum ad doloribus?
+                        </p>
+                        <button
+                            class="bg-red-800 rounded-md max-w-md text-white font-semibold tracking-wide border-b-4 mt-4 hover:bg-red-400 hover:text-darkbg hover:font-bold transition duration-400  border-red-400 py-3 px-8 my-4">Get
+                            Started</button>
+                </div>
+                
+                
+                <!-- image -->
+                <div class="w-[300px] md:w-[400px] lg:w-[700px] xl:w-[800px] 2xl:w-[1000px] object-contain">
+                    <img src="./img/hero1.png" alt="">
+                </div>
         </div>
     </main>
 
     <!-- card section -->
-    <section class="h-screen bg-red-900 ">
-
+    <section class="h-screen bg-red-900 pt-12">
+        <div class="container text-center mb-12">
+            <p class="font-bold text-white text-5xl ">Our Services</p>
+        </div>
         <!-- card container-->
-        <div class="container max-w-85% grid grid-cols-3">
+        <div class="container max-w-75% p-12 grid grid-cols-1 sm:grid-cols-3 gap-6">
 
             <!-- card 1 -->
-            <div>
+            <div class="max-w-25% h-xs p-12 text-center rounded-lg bg-darkbg shadow-md">
+                <div class="mb-6">
+                    <p class="text-white font-semibold text-2xl mb-6">Lorem Ipsum</p>
+                    <p class="text-white leading-5 tracking-wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet rerum adipisci obcaecati corrupti. Voluptate vel dignissimos soluta consequatur repellat ipsum blanditiis, error assumenda porro, iure itaque.</p>
+                </div>
                 
+                <button class="bg-lightbg px-6 py-2 rounded-md text-darkbg font-medium">See more...</button>
+            </div>
+            <!-- card 2 -->
+            <div class="max-w-25% h-xs p-12 text-center rounded-lg bg-darkbg shadow-md">
+                <div class="mb-6">
+                    <p class="text-white font-semibold text-2xl mb-6">Lorem Ipsum</p>
+                    <p class="text-white leading-5 tracking-wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet rerum adipisci obcaecati corrupti. Voluptate vel dignissimos soluta consequatur repellat ipsum blanditiis, error assumenda porro, iure itaque.</p>
+                </div>
+                
+                <button class="bg-lightbg px-6 py-2 rounded-md text-darkbg font-medium">See more...</button>
+            </div>
+
+
+
+            <!-- card 3 -->
+            <div class="max-w-25% h-xs p-12 text-center rounded-lg bg-darkbg shadow-md">
+                <div class="mb-6">
+                    <p class="text-white font-semibold text-2xl mb-6">Lorem Ipsum</p>
+                    <p class="text-white leading-5 tracking-wide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet rerum adipisci obcaecati corrupti. Voluptate vel dignissimos soluta consequatur repellat ipsum blanditiis, error assumenda porro, iure itaque.</p>
+                </div>
+                
+                <button class="bg-lightbg px-6 py-2 rounded-md text-darkbg font-medium">See more...</button>
             </div>
         </div>
-        <div></div>
-        <div></div>
     </section>
 
 
